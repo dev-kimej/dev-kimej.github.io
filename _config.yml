@@ -85,10 +85,4 @@ exclude:
   - README.md
   - CNAME
 
-# added by https://devinlife.com/howto%20github%20pages/category-tag/
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+
