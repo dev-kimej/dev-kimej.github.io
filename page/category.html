@@ -27,6 +27,7 @@ var postList = new Vue({
 
 axios.get('/posts.json')
   .then(function (response) {
+    console.log(response);
     postList.posts = response.data.posts;
   })
   .catch(function (error) {
